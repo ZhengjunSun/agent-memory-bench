@@ -29,6 +29,15 @@ python -m agent_memory_bench.demo
 python -m unittest discover -s tests -v
 ```
 
+## Verify the claims
+
+- [Memory architecture and benchmark contract](docs/architecture.md)
+- [Reproducible scale report](docs/benchmark.md)
+
+```bash
+python scripts/benchmark_scale.py --facts 1000 --queries 200
+```
+
 All people, organizations and events in the bundled benchmark are fictional.
 
 ## Prior art
